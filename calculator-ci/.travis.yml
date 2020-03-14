@@ -1,11 +1,11 @@
+dist: trusty
+
 addons:
   sonarcloud:
     organization: "flowsycurls"
     token:
       secure: "a8AP1baWHV3TCCIryKmZ4cx3N0ZE9mAa8c0Mu1cXZdbxDM7wlnB+J+jEQugEQ6oGXhJS5YxRYmHCsAkum8na3Uz/S7aTOok4TEuwoPvSJ2p335FE4aChFa+RmHyfEWcywvG+qkWVv//rVrgcBqkDb3unZZl6V1oFaF4d3umuJWd4BjIbsVP35+LRmmRQwfaW2z3Ha/KT/6F84qd9VqgJpE6YvA8BqR2itTISAu/EYq9qxVUtNk3nSGsqtbECzlt6rBNSrKwkiveXgFolt1VzHYTdfRhr30EsoSCCJJbt83XcSOTdBGetxusBHnsu71MMfpPelskUvqQby9Pe8FuhS1zdF07ydbiH8YNuIb3KGptjng935qROZbhD4WWFo00TswuBZ7g+zSMcgsA+SDIxr4skkBXQ6GRpot+5vbI1r/Uk8gjLYtwBXcMV9N5UBL6tPpFUV1OWaDMdGAg9LKSr6aRWqIOdHxgJIZVu/IyIzVu0T6FY9OeMfWb+HhhGsEnXJhmoSRlYGz2xIBzEyDP+pogcNQd3LXi5dLWCicPfxl8nM7iDb5Rb4OYwcE7b+zCRKQlgggmdZmNOgkWNNoaGxvRC3PP/H9TqvXkyUqV7QFanlbjROrzSWwoJ4TQyugqHFWPMju5xSsDASyt+p5uoiI9FqVKBjtjKokFHrA/oOZ8="
 
-language:
-  java
 script:
   - ant dist
   - sonar-scanner
