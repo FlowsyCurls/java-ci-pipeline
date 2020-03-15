@@ -1,10 +1,9 @@
 addons:
   sonarcloud:
     organization: flowsycurls
-    token:
-      secure: "CjPNbG/UjIMLJHUI3Sxcc+Hxo9ufEysXyw9CYe7bzXbb9Vayrf15wiijSshXS5WpT4P3G14DUXDSho2DbIHj4VQc45ShZr2qbcawCnEo8kNNoweZUAij0NZpUzcmiUA9VGKksPOX709o7A/H/FT2FXIcfk8fwGxi0NGTq/RqeQDn/KyYEF4yQ5r72FSlg4a+Gdff1Xwv8p+oDo2j9MwjeX9kwjPdvlFtIr+yACUYkMNUhvT9QGoVcw1yHbfGXKnD7OuA8UiJCzoTOXMNx9gmPNqb+K0QF2xVSOf9FzMuHlj7Pj+Q7UEgyeWntd9sMp29BK4Vj3GPVuYZqnIZQYqzv5ptRvfOatr5yiY/ULnnsiFP7g998XGh2Pa9rhPsnEdvqwcsn5G45yCu7JKrhDqWSdrELErBODmc0KH5HT1Wdf+l8vbF65L/PDgioLUN6xO15fyYSopF0q/6o6VSC5hLnxEEdCdStbyVytL7jGlS7Yb2mB9HZP2asDlzSrNvp/zPAowfafcf1qifY5p7VQwrj1r7vr7pc1R5y9EovqRho8w5J9djfRs0gnGQAqyNqi2krTXPSggedfOpgBTVx3PnQ4uCReBuMoiKOAp9SdL+VKb5Mp6DWr9WHeCuMpAfKQxqHunDOZOS2qk+5Ncah5DWKaZF18R4It7tyPfQ61eLpCw="
+    token: "5353ebd388a16bfacb27d84b67e7fb021366e5c8"
 language: java
 script:
-- ant dist
-- sonar-scanner
+  - ant dist
+  - sonar-scanner
 
